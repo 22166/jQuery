@@ -1,0 +1,39 @@
+<html>
+
+	<head>
+		<title>Code Player</title>
+		
+		<link rel="stylesheet" type="text/css" href = "Code_player.css">
+		
+		<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+	</head>
+
+	<body>
+		<div id ="container">
+				<div id="codePlayer">
+					<h3>CodePlayer</h3> 
+				</div>
+				<div id="MenuBar">
+					<div class= "menuElements" id ="htmlActive" class="active">HTML</div>
+					<div class= "menuElements" id ="cssActive" class="active">CSS</div>
+					<div class= "menuElements" id ="jsActive" class="active">JavaScript</div>
+					<div class= "menuElements" id ="outputActive" class="active">Output</div>
+				</div>
+		</div>
+		<div class="clear-floating"></div>
+		
+		<div id ="mainPanel">
+		
+			<textarea id="htmlInput" name = "HTML Input"></textarea>
+			<div><textarea id="cssInput"  name = "CSS Input"></textarea></div>
+			<div><textarea id="jsInput"  name = "javascript Input"></textarea></div>
+			<iframe id = "outPut"></iframe>
+			
+		</div>
+		
+		<script type="text/javascript" src="Code_player.js"></script>
+			
+	</body>
+
+
+</html>

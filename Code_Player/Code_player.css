@@ -1,0 +1,99 @@
+body, button, h3, div
+{ 
+	margin: 0;
+	padding: 0;
+}
+
+#container
+{
+	height: 50px;
+	width: 100%;
+	background-color: #EDEDED;
+}
+#codePlayer
+{
+	height: 50px;
+	width: 150px;
+	/*background-color: green;*/
+	float: left;
+}
+h3
+{
+	margin: 0 0 0 0;
+	padding: 10px 0 0 10px;
+	font-size: 25px;
+   /* background-color: yellow; */ 
+}
+#MenuBar
+{
+	height: 12px;
+	margin: 0 0 0 600px;
+	padding: 20px 0 20px 0;
+	font-size: 15px;
+	/*background-color: red; */
+}
+.menuElements
+{
+	float: left;
+	padding:2px;
+	border: 1px solid grey;
+	border-radius: 10%;
+}
+#mainPanel
+{
+	height: 650px;
+	width: 100%;
+}
+
+#htmlInput
+{
+	height: 650px;
+	width: 24%;
+	float: left;
+	vertical-align: top;
+	font-size: 16px;
+	resize: none;
+	border: solid 1px grey;
+}
+#cssInput
+{
+	height: 650px;
+	width: 24%;
+	float: left;
+	vertical-align: top;
+	font-size: 16px;
+	resize: none;
+	border: solid 1px grey;
+}
+#jsInput
+{
+	height: 650px;
+	width: 24%;
+	float: left;
+	vertical-align: top;
+	font-size: 16px;
+	resize: none;
+	border: solid 1px grey;
+}
+#outPut
+{
+	height: 650px;
+	width: 24%;
+	float: left;
+	vertical-align: top;
+	font-size: 16px;
+	border: solid 1px grey;
+	/*background-color: green;*/
+}
+.clear-floating
+{
+	clear: both;
+}
+.active
+{
+	background-color: #E8F2FF;
+}
+.highlightedButton
+{
+	background-color: grey;
+}
